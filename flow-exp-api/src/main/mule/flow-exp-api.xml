@@ -21,7 +21,10 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<logger level="INFO" doc:name="Logger" doc:id="697d99a2-379f-4be0-8572-ad86f1fe03ba" message="Hey! This is subflow"/>
 	</sub-flow>
 	<flow name="PrivateFlow" doc:id="f6b9c84d-8eed-434d-8dc6-94a14f7e52d6" >
+
 		<logger level="INFO" doc:name="Logger1" doc:id="41c672ba-d982-4d8c-9a81-0f894aa3eae6" message="Private flow called"/>
+		<logger level="INFO" doc:name="Logger" doc:id="41c672ba-d982-4d8c-9a81-0f894aa3eae6" message="Private flow called"/>
+		<logger level="INFO" doc:name="Logger" doc:id="41c672ba-d982-4d8c-9a81-0f894aa3eae6" message="Private flow called Again"/>
 		<logger level="INFO" doc:name="Logger2" doc:id="158f5eaa-1598-46ef-bbcb-da407723b31d" message="Logger2" />
 		<logger level="INFO" doc:name="Logger3" doc:id="3806cbab-646d-4b18-aa92-1ac6db14e25c" message="Message 2"/>
 		<logger level="INFO" doc:name="Logger4" doc:id="784d1072-1d93-4573-a383-ca05dfe356b4" message="Message 3"/>
